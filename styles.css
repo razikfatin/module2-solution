@@ -1,0 +1,68 @@
+     * {
+		padding : 0px;
+		margin : 0px;
+		text-align : center ;
+		box-sizing : border-box ;
+		}
+		
+		
+		body {
+		font-family : "Lucida Console";
+		}
+		
+		
+		h1 {
+		padding : 50px ;
+		}
+		
+		#lol {
+		padding : 20px ;
+		float : left ;
+		
+		box-sizing : border-box ;
+		}
+		
+		#box1 {
+		position : relative ;
+		padding : 20px;
+		height : 200px ;
+		border : 1px solid black ;
+		background : #C0C0C0 ; 
+		overflow : auto ;
+		}
+		
+		#sub-heading {
+		position : absolute ;
+		right : 0px ;
+		top : 0px ;
+		width : 100px ;
+		height : 25px ;
+		border : 1px solid black ;
+		font-size : 1.30em ;
+		}
+		
+		p {
+		position : absolute ;
+		text-align : left ; 
+		top : 50px ;
+		font-size : 1.25em ;
+		}
+		
+		
+		@media (min-width:992px ) {
+		#lol {
+		width : 33.32% ; }
+		}
+		
+		@media ( min-width:768px ) and ( max-width:991px ) {
+		#lol {
+		width : 50% ;}
+		.thirdbox {
+		width : 100%  !important ;
+		}}
+		
+		@media (max-width:767px) {
+		#lol {
+		width : 100% ;
+		}}
+		
